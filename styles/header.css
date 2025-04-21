@@ -1,0 +1,135 @@
+.cabecalho {
+  width: 100vw;
+  height: 8em;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid var(--roxo-principal);
+  background-color: var(--roxo-escuro);
+  z-index: 5;
+}
+
+.container {
+  padding: 0 3em 0 3em;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  /* o absolute permite a colocação do objeto de acordo com outro que veio antes, que teve a position diferente de static (que é a padrão) */
+  top: 100%;
+  width: 50vw;
+  background-color: var(--roxo-principal);
+  /* transition: all 0.3s ease-in; */
+  right: 0;
+  padding: 1em;
+  border-bottom-left-radius: 1em;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+  /* border-bottom-right-radius: 1em; */
+}
+
+.container__botao:checked ~ .lista-menu {
+  display: block;
+}
+
+.lista-menu__item {
+  padding: 1.5em;
+}
+
+.lista-menu__link {
+  text-decoration: none;
+  color: var(--amarelo-principal);
+  font-weight: 700;
+}
+
+.lista-menu__link:hover {
+  font-style: italic;
+}
+
+.container__botao {
+  display: none;
+}
+
+.menu-btn-1 {
+  height: 2em;
+  width: 2.5em;
+  cursor: pointer;
+}
+
+.menu-btn-1 span,
+.menu-btn-1 span::before,
+.menu-btn-1 span::after {
+  background: var(--amarelo-principal);
+  border-radius: 3px;
+  content: "";
+  position: absolute;
+  width: 2.5em;
+  height: 3px;
+  margin-top: 0.8em;
+
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-btn-1 span::before {
+  margin-top: -0.75em;
+}
+
+.menu-btn-1 span::after {
+  margin-top: 0.75em;
+}
+
+.menu-btn-1.active span {
+  background: transparent;
+}
+
+.menu-btn-1.active span::before {
+  margin-top: 0;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.menu-btn-1.active span::after {
+  margin-top: 0;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* nav {
+  width: 100vw;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 80px; 
+  position: fixed;
+  top: 0px;
+  background-color: var(--roxo-escuro);
+  border-bottom: 1px solid var(--roxo-principal);
+  z-index: 5;
+} */
+
+#logo {
+  width: 12.5em;
+}

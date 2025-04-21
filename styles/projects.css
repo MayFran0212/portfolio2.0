@@ -1,0 +1,118 @@
+#projects {
+  padding-top: 1.8em;
+  /* margin-left: -100px; */
+}
+
+#projects h2 {
+  font-size: 2em;
+  margin: 5em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+#cardMaior {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62em;
+  width: 22em;
+  background-color: var(--amarelo-principal);
+  height: 37.5em;
+  text-align: center;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+#fotoCardMaior {
+  width: 22em;
+  height: 28.12em;
+  object-fit: cover;
+}
+
+.linhaCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+#cardMaior h3 {
+  color: var(--roxo-escuro);
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 0 1em;
+  margin-top: 5px;
+}
+
+#cardMaior p {
+  color: var(--roxo-escuro);
+  font-size: 1em;
+  padding: 0px 15px 5px 15px;
+}
+
+#cardMaior a {
+  text-decoration: none;
+  background-color: var(--roxo-principal);
+  color: var(--roxo-claro);
+  padding: 0.8em;
+  margin: 0.5em 6.9em;
+  border-radius: 0.8em;
+}
+
+#cardsMenores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  width: 22em;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  background-color: var(--amarelo-principal);
+  height: 18.5em;
+  width: 21.8em;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card h3 {
+  color: var(--roxo-escuro);
+  font-size: 1.5em;
+  font-style: italic;
+  padding: 0 1em;
+  margin-top: 5px;
+}
+
+.card p {
+  color: var(--roxo-escuro);
+  font-size: 1em;
+  padding: 0px 15px 5px 15px;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: var(--roxo-principal);
+  color: var(--roxo-claro);
+  padding: 0.8em;
+  margin: 0 6.9em;
+  border-radius: 0.8em;
+}
+
+.card img {
+  width: 21.8em;
+  height: 9.4em;
+  object-fit: cover;
+}

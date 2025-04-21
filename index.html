@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio Maysa</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header id="topo">
+      <nav class="cabecalho">
+        <div class="container">
+          <div id="logo-nav">
+            <a href="#hero" title="acesse a sessão principal">
+              <img
+                id="logo"
+                src="assets/mf_logotipo.png"
+                alt="logo da identidade visual da Maysa"
+                title="logo da identidade visual da Maysa"
+              />
+            </a>
+          </div>
+          <input type="checkbox" id="menu" class="container__botao" />
+          <div class="menu-btn-1" onclick="menuBtnFunction(this)">
+            <label for="menu" class="container__rotulo">
+              <span class="cabecalho__hamburguer"></span>
+            </label>
+          </div>
+          <ul class="lista-menu">
+            <li class="lista-menu__item">
+              <a href="#about" class="lista-menu__link">Sobre mim</a>
+            </li>
+            <li class="lista-menu__item">
+              <a href="#linhaBrilho" class="lista-menu__link">Conhecimentos</a>
+            </li>
+            <li class="lista-menu__item">
+              <a href="#projects" class="lista-menu__link">Projetos</a>
+            </li>
+            <li class="lista-menu__item">
+              <a href="#linhaBrilhoCurriculum" class="lista-menu__link"
+                >Currículo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="heroImg1">
+          <img
+            src="assets/elemento_asterisco2.svg"
+            alt="asteriscos"
+            title="asteriscos"
+          />
+        </div>
+        <div id="heroTexto">
+          <h1>
+            <span class="textosHover">Transformando pixels em paixão:</span>
+            design que inspira, desenvolvimento que impulsiona
+          </h1>
+          <p>
+            <span class="textosHover">Ei, você!</span> Sim, você que está
+            buscando um toque de
+            <span class="textosHover">magia digital</span> para o seu projeto.
+            Se você tem um sonho, eu tenho as ferramentas e a criatividade para
+            transformá-lo em realidade.
+            <span class="textosHover"
+              >Vamos juntos construir algo incrível?</span
+            >
+          </p>
+        </div>
+        <div id="heroImg2">
+          <img
+            src="assets/elemento_arco2.svg"
+            alt="elementos circulares com estrelas e asteriscos"
+            title="dois arcos com estrelas e asterisco"
+          />
+        </div>
+      </section>
+      <section id="about">
+        <div id="containerAbout">
+          <div>
+            <img
+              id="fotoMaysa"
+              src="assets/Eu.png"
+              alt="foto da Maysa recortada com alguns brilhinos"
+              title="Maysa sorridente com um vestido amarelo"
+            />
+          </div>
+          <div>
+            <div id="containerTextosAbout">
+              <h2><span class="textosHover">Maysa Francesquini</span></h2>
+              <p id="profissao">Frontend Developer & Graphic Designer</p>
+              <p id="descricao">
+                Sou <span class="textosHover">movida pela fé</span>, pela
+                alegria e pela vontade de fazer a diferença. Apaixonada por
+                animações e games, amo histórias envolventes e cativantes. Sou
+                fascinada pela antropologia e sempre busco entender melhor as
+                pessoas ao meu redor.
+              </p>
+            </div>
+            <div>
+              <ul class="icones">
+                <li class="botoes">
+                  <a
+                    href="https://github.com/MayFran0212"
+                    target="_blank"
+                    title="acesse meu github"
+                    ><img
+                      src="assets/icones_github.svg"
+                      alt="logo do github"
+                      title="logo do github"
+                  /></a>
+                </li>
+                <li class="botoes">
+                  <a
+                    href="https://www.instagram.com/maysafrancesquini/"
+                    target="_blank"
+                    title="acesse meu instagram"
+                    ><img
+                      src="assets/icones_instagram.svg"
+                      alt="logo do instagram"
+                      title="logo do instagram"
+                  /></a>
+                </li>
+                <li class="botoes">
+                  <a
+                    href="https://www.linkedin.com/in/maysa-francesquini/"
+                    target="_blank"
+                    title="acesse meu linkedin"
+                    ><img
+                      src="assets/icones_linkedin.svg"
+                      alt="logo do linkedin"
+                      title="logo do linkedin"
+                  /></a>
+                </li>
+                <li class="botoes">
+                  <a
+                    href="https://www.behance.net/maysafrancesquini"
+                    target="_blank"
+                    title="acesse meu behance"
+                    ><img
+                      src="assets/icones_behance.svg"
+                      alt="logo do behance"
+                      title="logo do behance"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        id="linhaBrilho"
+        src="assets/elemento_linhabrilhov.svg"
+        alt="linha com uma estrela na ponta"
+        title="linha com uma estrela na ponta"
+      />
+      <section id="skills">
+        <h2 class="tituloSessao">Meus Conhecimentos</h2>
+        <div>
+          <dl id="listaSkills">
+            <div class="lista2Itens">
+              <div class="listaItens">
+                <h3 id="numero1-skills">01</h3>
+                <div class="listaDescricao">
+                  <dt>Graphic Design</dt>
+                  <dd>
+                    Driagramação, fechamento de arquivos, teoria das cores,
+                    gestalt, branding, social media, edição de vídeos,
+                    tratamento de imagens.
+                  </dd>
+                </div>
+              </div>
+              <div class="listaItens">
+                <h3>02</h3>
+                <div class="listaDescricao">
+                  <dt>Frontend</dt>
+                  <dd>HTML, CSS, JavaScript.</dd>
+                </div>
+              </div>
+            </div>
+            <div class="lista2Itens">
+              <div class="listaItens">
+                <h3>03</h3>
+                <div class="listaDescricao">
+                  <dt>Softwares</dt>
+                  <dd>
+                    Pacote Adobe (Photoshop, Illustrator, Indesign, Adobe XD,
+                    After Effects, Lightroom), Figma, Canva, Capcut, Blender.
+                  </dd>
+                </div>
+              </div>
+              <div class="listaItens">
+                <h3>04</h3>
+                <div class="listaDescricao">
+                  <dt>UX & UI Design</dt>
+                  <dd>
+                    Usabilidade do usuário, vieses cognitivos, gatilhos mentais,
+                    prototipação, fluxo de sites.
+                  </dd>
+                </div>
+              </div>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <section id="projects">
+        <h2 class="tituloSessao">Conheça alguns dos meus projetos</h2>
+        <div id="cards">
+          <div id="cardMaior">
+            <img
+              id="fotoCardMaior"
+              src="assets/cardDados.jpg"
+              alt="imagem para ilustrar banco de dados"
+              title="homem com um notebook"
+            />
+            <h3>Banco de Dados Artistas</h3>
+            <p>Desenvolvido com HTML, CSS & JavaScript</p>
+            <a
+              class="botoesCards"
+              href="https://base-de-dados-artistas.vercel.app/"
+              target="_blank"
+              title="acesse meu projeto de banco de dados"
+              >Acesse aqui</a
+            >
+          </div>
+          <div id="cardsMenores">
+            <div class="linhaCard">
+              <div class="card">
+                <img
+                  src="assets/cardPortfolio2.jpg"
+                  alt="mockup de um computador com a primeira versão do meu portfólio"
+                  title="1° versão do meu portfólio"
+                />
+                <h3>Portfólio Versão 1</h3>
+                <p>Desenvolvido com HTML & CSS</p>
+                <a
+                  class="botoesCards"
+                  href="https://portfolio-maysa-francesquini.vercel.app/"
+                  target="_blank"
+                  title="acesse meu 1° portfólio"
+                  >Acesse aqui</a
+                >
+              </div>
+              <div class="card">
+                <img
+                  src="assets/cardBook.jpg"
+                  alt="mockup de um computador com o site construído com a Alura de uma página de e-books"
+                  title="site de compra de e-books"
+                />
+                <h3>Alura Books</h3>
+                <p>Desenvolvido com HTML & CSS</p>
+                <a
+                  class="botoesCards"
+                  href="https://mayfran0212.github.io/alurabooks/"
+                  target="_blank"
+                  title="acesse meu projeto do site Alura Books"
+                  >Acesse aqui</a
+                >
+              </div>
+            </div>
+            <div class="linhaCard">
+              <div class="card">
+                <img
+                  src="assets/cardPlay.jpg"
+                  alt="mockup de um computador com o site construído com a Alura de uma landing page"
+                  title="landing page de assinatura de um produto digital"
+                />
+                <h3>Landing Page Alura Plus</h3>
+                <p>Desenvolvido com HTML & CSS</p>
+                <a
+                  class="botoesCards"
+                  href="https://mayfran0212.github.io/aluraplus/"
+                  target="_blank"
+                  title="acesse meu projeto do site Alura Plus"
+                  >Acesse aqui</a
+                >
+              </div>
+              <div class="card">
+                <img
+                  src="assets/cardRevista.jpg"
+                  alt="mockup da revista viajantes do tempo"
+                  title="revista viajantes do tempo"
+                />
+                <h3>Revista Viajantes do Tempo</h3>
+                <p>Desenvolvido com Photoshop & Indesign</p>
+                <a
+                  class="botoesCards"
+                  href="https://www.behance.net/gallery/161162483/Revista-Viajantes-do-Tempo"
+                  target="_blank"
+                  title="acesse meu projeto da revista Viajantes do Tempo"
+                  >Acesse aqui</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        id="linhaBrilhoCurriculum"
+        src="assets/elemento_linhabrilhov.svg"
+        alt="linha com uma estrela na ponta"
+        title="linha com uma estrela na ponta"
+      />
+      <section id="curriculum">
+        <h2 class="tituloSessao">Experiências</h2>
+        <div id="containerCurriculum">
+          <div id="trabalho">
+            <div class="cardDescricao">
+              <h3>Imprimindo Ideias</h3>
+              <p class="trabalhoProfissao">
+                Designer Gráfico Treinee <br />abril 2024 — presente
+              </p>
+              <p class="trabalhoDescricao">
+                Ensino aos estagiários boas práticas do design, realizo
+                fechamento de arquivos, criação de ativos, gerenciamento de
+                redes sociais, entendimento de briefing.
+              </p>
+            </div>
+            <div class="cardDescricao">
+              <h3>Milla Vaccari</h3>
+              <p class="trabalhoProfissao">
+                Assistente Administrativo <br />2023 — 2024
+              </p>
+              <p class="trabalhoDescricao">
+                Cuidava de cada detalhe da loja, desde a limpeza do local e das
+                peças, atendimento ao cliente, sistema de ERP até o
+                gerenciamento do Instagram, que passou dos 10mil seguidores sob
+                meus cuidados.
+              </p>
+            </div>
+            <div class="cardDescricao">
+              <h3>GM</h3>
+              <p class="trabalhoProfissao">Aprendiz SENAI <br />2019 — 2020</p>
+              <p class="trabalhoDescricao">
+                Auxiliava os colaboradores da manutanção e via como era o dia a
+                dia deles, aprendi a trabalhar sob pressão e colocar em prática
+                os aprendizados do Técnico em Mecatrônica.
+              </p>
+            </div>
+          </div>
+          <div id="academico">
+            <div class="cardDescricao">
+              <h3>Instituto Infnet</h3>
+              <p class="trabalhoProfissao">
+                Engenharia de Software <br />
+                2025 — 2028
+              </p>
+              <p class="trabalhoDescricao">
+                Áreas de estudo: Front-End, HTML, CSS, JavaScript, Python, SQL,
+                React, Java, C#, Base de Dados, DevOPS, Design Patterns,
+                Inteligência Artificial, Machine Learning.
+              </p>
+            </div>
+            <div class="cardDescricao">
+              <h3>USJT</h3>
+              <p class="trabalhoProfissao">
+                Técnologo em Design Gráfico <br />
+                2021 — 2022
+              </p>
+              <p class="trabalhoDescricao">
+                Áreas de estudo: Tipografia, Branding, Design Editorial,
+                Diagramação, Teoria das Cores, Identidade Visual, Fechamento de
+                Arquivos, Gestalt, UX & UI.
+              </p>
+            </div>
+            <div class="cardDescricao">
+              <h3>SENAI</h3>
+              <p class="trabalhoProfissao">
+                Técnico em Mecatrônica <br />
+                2019 — 2020
+              </p>
+              <p class="trabalhoDescricao">
+                Áreas de estudo: Mecânica, Eletrônica, Eletroeletrônica,
+                Pneumática, Hidráulica, Lógica de Programação, C++, Projetos 3D
+                com Inventor, Desenho Técnico.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="voltarTopo">
+        <a href="#topo" title="volte ao topo">
+          <img
+            src="assets/icones_setinha.svg"
+            alt="duas setas para cima"
+            title="duas setas para cima"
+          />
+        </a>
+      </div>
+    </main>
+    <div id="elementoCirculo">
+      <img
+        id="circulos"
+        src="assets/elemento_meiocirculo.svg"
+        alt="quatro circulos seguidos"
+        title="circulos lado a lado"
+      />
+    </div>
+    <div id="elementoMeioArco">
+      <img
+        id="meioArco"
+        src="assets/elemento_meioarco.svg"
+        alt="meio arco com uma estrela"
+        title="meio arco com uma estrela"
+      />
+    </div>
+    <footer>
+      <div id="footerAgradecimento">
+        <p class="textosHoverFooter">Obrigada por visitar o meu portfolio :D</p>
+      </div>
+      <div id="footerLogo">
+        <p>Powered by</p>
+        <a href="#hero" title="volte a sessão principal">
+          <img
+            src="assets/mf_logo.png"
+            alt="logo da identidade visual da Maysa"
+            title="logo da identidade visual da Maysa"
+          />
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

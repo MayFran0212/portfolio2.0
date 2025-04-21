@@ -1,0 +1,46 @@
+#hero {
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    /* height: 100vh; */
+    /* padding-top: 8em; */
+  }
+  
+  #heroTexto {
+    text-align: left;
+    margin: 3em 0 12.5em 3em;
+    width: 22em;
+  }
+  
+  #heroTexto h1 {
+    font-size: 1.7em;
+    font-style: italic;
+    line-height: 1.5em;
+  }
+  
+  #heroTexto p {
+    /* width: 780px; */
+    font-size: 1.15em;
+    margin-top: 2.2em;
+    line-height: 1.5em;
+  }
+  
+  #heroImg2 {
+    position: absolute;
+    right: 0;
+    top: 33em;
+  }
+  
+  #heroImg2 img {
+    width: 12em;
+  }
+  
+  #heroImg1 {
+    position: absolute;
+    left: 0;
+    top: 9.5em;
+  }
+  
+  #heroImg1 img {
+    width: 1.25em;
+  }

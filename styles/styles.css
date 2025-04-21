@@ -1,0 +1,48 @@
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./about.css");
+@import url("./top.css");
+@import url("./skills.css");
+@import url("./projects.css");
+@import url("./curriculum.css");
+@import url("./footer.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+:root {
+  --roxo-principal: #4d2772;
+  --amarelo-principal: #f3a009;
+  --bege: #fff5d9;
+  --roxo-escuro: #22193e;
+  --roxo-claro: #efe1f0;
+  --roxo-borda: #62348f;
+  --box-shadow: rgba(0, 0, 0, 0.5);
+
+  --font-principal: "Lora", serif;
+}
+
+body {
+  padding-top: 8em;
+  background-color: var(--roxo-escuro);
+  font-family: var(--font-principal);
+  color: var(--roxo-claro);
+  overflow-x: hidden;
+  /* width: 1440px; */
+}
+
+/*576px*/
+@media (min-width: 576px) {
+}
+
+/*768px*/
+@media (min-width: 768px) {
+}
+
+/*992px*/
+@media (min-width: 992px) {
+    /* gap: 25px; */a
+  }
+
+/*1200px*/
+@media (min-width: 1200px) {
+}

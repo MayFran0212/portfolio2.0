@@ -1,0 +1,71 @@
+  #linhaBrilhoCurriculum {
+    width: 25em;
+    position: absolute;
+    top: 318em;
+    right: 0;
+    padding-top: 9.4em;
+    transform: scaleX(-1);
+  }
+  
+  #curriculum {
+  }
+  
+  #curriculum h2 {
+    font-size: 2.2em;
+    font-style: italic;
+    margin: 5em 0 2em 0;
+  }
+  
+  #containerCurriculum {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.2em;
+  }
+  
+  #trabalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.2em;
+    align-items: center;
+  }
+  
+  #academico {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.2em;
+    align-items: center;
+  }
+  
+  #containerCurriculum h3 {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: var(--amarelo-principal);
+    margin-bottom: 5px;
+  }
+  
+  #containerCurriculum p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+  
+  .trabalhoDescricao {
+    width: 18.12em;
+    font-size: 1.25em;
+    margin-top: 1.25em;
+  }
+  
+  .trabalhoProfissao {
+    font-style: italic;
+  }
+  
+  .cardDescricao {
+    border: 1px solid var(--roxo-borda);
+    background-color: rgba(76, 39, 114, 0.3);
+    border-radius: 1em;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 3.12em 1.9em;
+  }
