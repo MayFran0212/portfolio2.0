@@ -30,6 +30,23 @@ body {
   /* width: 1440px; */
 }
 
+::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: var(--amarelo-principal);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: var(--bege);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--roxo-principal);
+}
+
 /*576px*/
 @media (min-width: 576px) {
 }
@@ -40,7 +57,7 @@ body {
 
 /*992px*/
 @media (min-width: 992px) {
-    /* gap: 25px; */a
+    /* gap: 25px; */
   }
 
 /*1200px*/
