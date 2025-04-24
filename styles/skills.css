@@ -1,7 +1,15 @@
-#linhaBrilho {
-    width: 25em;
-    position: absolute;
-    top: 100em;
+#container__linhaBrilho {
+  position: relative;
+}
+
+#container__linhaBrilho img {
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+
+.linhaBrilho {
+    width: 20em;
     padding-top: 9.4em;
   }
   
@@ -51,7 +59,7 @@
     color: var(--amarelo-principal);
   }
   .listaDescricao dd {
-    font-size: 1.15em;
+    font-size: 1.1em;
     line-height: 1.5em;
     margin-bottom: 3em;
   }

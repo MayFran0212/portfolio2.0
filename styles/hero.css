@@ -27,13 +27,11 @@
   }
   
   #heroImg2 {
-    position: absolute;
-    right: 0;
-    top: 33em;
+    display: none;
   }
   
   #heroImg2 img {
-    width: 12em;
+    display: none;
   }
   
   #heroImg1 {

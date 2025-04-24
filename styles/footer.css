@@ -33,6 +33,8 @@
 
   #footerAgradecimento p {
     width: 7em;
+    font-size: 0.8em;
+    line-height: 1.5em;
   }
   
   #footerLogo {
@@ -41,7 +43,11 @@
     justify-content: center;
     gap: 10px;
   }
+
+  #footerLogo p {
+    font-size: 0.8em;
+  }
   
   #footerLogo img {
-    width: 50px;
+    width: 2.8em;
   }

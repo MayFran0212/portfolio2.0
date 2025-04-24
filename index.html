@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio Maysa</title>
+    <link rel="icon" type="image/x-icon" href="./assets/mf_logo.png" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
@@ -90,7 +91,7 @@
               title="Maysa sorridente com um vestido amarelo"
             />
           </div>
-          <div>
+          <div id="container__textos">
             <div id="containerTextosAbout">
               <h2><span class="textosHover">Maysa Francesquini</span></h2>
               <p id="profissao">Frontend Developer & Graphic Designer</p>
@@ -153,12 +154,30 @@
           </div>
         </div>
       </section>
-      <img
-        id="linhaBrilho"
-        src="assets/elemento_linhabrilhov.svg"
-        alt="linha com uma estrela na ponta"
-        title="linha com uma estrela na ponta"
-      />
+      <div id="container__linhaBrilho">
+        <picture>
+          <source
+            media="(min-width: 801px)"
+            srcset="assets/elemento_linhabrilhov.svg"
+            alt="linha com uma estrela na ponta versão mobile"
+            title="linha com uma estrela na ponta versão mobile"
+            class="linhaBrilho mobile"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/elemento_linhabrilhomobile.svg"
+            alt="linha com uma estrela na ponta versão desktop"
+            title="linha com uma estrela na ponta versão desktop"
+            class="linhaBrilho desktop"
+          />
+          <img
+            class="linhaBrilho"
+            src="assets/elemento_linhabrilhov.svg"
+            alt="linha com uma estrela na ponta"
+            title="linha com uma estrela na ponta"
+          />
+        </picture>
+      </div>
       <section id="skills">
         <h2 class="tituloSessao">Meus Conhecimentos</h2>
         <div>
@@ -300,12 +319,30 @@
           </div>
         </div>
       </section>
-      <img
-        id="linhaBrilhoCurriculum"
-        src="assets/elemento_linhabrilhov.svg"
-        alt="linha com uma estrela na ponta"
-        title="linha com uma estrela na ponta"
-      />
+      <div id="container__linhaBrilhoCurriculo">
+        <picture>
+          <source
+            media="(min-width: 801px)"
+            srcset="assets/elemento_linhabrilhov.svg"
+            alt="linha com uma estrela na ponta versão mobile"
+            title="linha com uma estrela na ponta versão mobile"
+            class="linhaBrilhoCurriculum mobile"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="assets/elemento_linhabrilhomobile.svg"
+            alt="linha com uma estrela na ponta versão desktop"
+            title="linha com uma estrela na ponta versão desktop"
+            class="linhaBrilhoCurriculum desktop"
+          />
+          <img
+            class="linhaBrilhoCurriculum"
+            src="assets/elemento_linhabrilhov.svg"
+            alt="linha com uma estrela na ponta"
+            title="linha com uma estrela na ponta"
+          />
+        </picture>
+      </div>
       <section id="curriculum">
         <h2 class="tituloSessao">Experiências</h2>
         <div id="containerCurriculum">
